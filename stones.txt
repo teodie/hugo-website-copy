@@ -1,0 +1,3 @@
+I dont know how to change the materials themes icons because there is no direct mapping for (sections) foldername
+I dont know how the :root or the global.css works
+I dont know how the clamp css function works. example ( width:Clamp(200px, 26vw, 320px) )
