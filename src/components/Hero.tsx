@@ -18,7 +18,7 @@ const Hero = () => {
       <div className='relative z-2 flex flex-col items-center text-center  gap-10 px-6 '>
         <h1 className='w-px h-px overflow-hidden'>Hugo Builders — Premium Roofing, Siding & Gutters in Columbus, Ohio</h1>
 
-        <div className='w-[clamp(200px,26vw,320px)]'>
+        <div className='w-[clamp(200px,26vw,320px)] flex items-center justify-center'>
           <Image  src={'/assets/images/HeroIcon.png'} alt='' width={280} height={280} className='brightness-0 invert-100'/>
         </div>
 
@@ -30,10 +30,10 @@ const Hero = () => {
 
       <div className='absolute bottom-0 flex flex-col items-center gap-4 mb-5'>
         <span className='tracking-widest uppercase text-[.75rem]'>Scroll</span>
-        <ArrowDown size={25}/>
+        <ArrowDown size={25} className='animate-bounce [animation-duration:1.5s]'/>
       </div>
 
-      <div className='absolute inset-0 bg-linear-to-t from-0% from-black/50 to-100% to-transparent' />
+      <div className='absolute inset-0 bg-linear-to-t from-0% from-black/50 to-100% to-transparent ' />
 
 
     </section>
