@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Barlow_Condensed } from "next/font/google";
 import "./globals.css";
+import Nav from "@/components/Nav";
 
 const barlowCondensed = Barlow_Condensed({
   variable: "--Barlow_Condensed",
   weight: ["100", "200", "300", "400", "500"],
+  display: 'swap'
 });
 
 const geistMono = Geist_Mono({
@@ -27,7 +29,10 @@ export default function RootLayout({
       lang="en"
       className={`${barlowCondensed.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body>{children}</body>
+      <body>
+        <Nav />
+        {children}
+      </body>
     </html>
   );
 }

@@ -1,6 +1,5 @@
 import { ArrowDown } from 'lucide-react'
 import Image from 'next/image'
-import React from 'react'
 
 const Hero = () => {
   return (
@@ -33,7 +32,7 @@ const Hero = () => {
         <ArrowDown size={25} className='animate-bounce [animation-duration:1.5s]'/>
       </div>
 
-      <div className='absolute inset-0 bg-linear-to-t from-0% from-black/50 to-100% to-transparent ' />
+      <div className='absolute inset-0 bg-linear-to-t from-0% from-black/50 to-100% to-black/30 ' />
 
 
     </section>
