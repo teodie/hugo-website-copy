@@ -5,8 +5,8 @@ const InstagramIcon = (props: SVGProps<SVGSVGElement>) => (
     {...props}
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
-    width="20px"
-    height="20px"
+    width="18px"
+    height="18px"
     fill="currentColor"
 
   >
