@@ -4,9 +4,10 @@ import "./globals.css";
 import NavCopied from "@/components/NavCopied";
 
 const barlowCondensed = Barlow_Condensed({
-  variable: "--Barlow_Condensed",
-  weight: ["100", "200", "300", "400", "500"],
-  display: 'swap'
+  variable: "--font-barlow-condensed",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  display: 'swap',
+  subsets: ['latin']
 });
 
 const geistMono = Geist_Mono({

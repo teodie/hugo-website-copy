@@ -14,9 +14,9 @@ const NavCopied = () => {
         flex items-center gap-8 grow shrink basis-0
         justify-end pr-16
         '>
-          <a href=""   className='font-barlowCondensed font-medium text-[.875rem] uppercase tracking-widest text-[#ffffffb3] inline-flex items-center gap-1'
+          <a href="" className=' font-medium text-[.875rem] uppercase tracking-widest text-[#ffffffb3] inline-flex items-center gap-1'
           >About</a>
-          <a href=""   className='font-barlowCondensed font-medium text-[.875rem] uppercase tracking-widest text-[#ffffffb3] inline-flex items-center gap-1'
+          <a href="" className=' font-medium text-[.875rem] uppercase tracking-widest text-[#ffffffb3] inline-flex items-center gap-1'
           >Service</a>
 
         </nav>
@@ -33,10 +33,10 @@ const NavCopied = () => {
         flex-start pl-16
         '
         >
-          <a href=""   className='font-barlowCondensed font-medium text-[.875rem] uppercase tracking-widest text-[#ffffffb3] inline-flex items-center gap-1' 
-        
+          <a href="" className=' font-medium text-[.875rem] uppercase tracking-widest text-[#ffffffb3] inline-flex items-center gap-1'
+
           >Financing</a>
-          <a href=""   className='font-barlowCondensed font-medium text-[.875rem] uppercase tracking-widest text-[#ffffffb3] inline-flex items-center gap-1'>contact</a>
+          <a href="" className=' font-medium text-[.875rem] uppercase tracking-widest text-[#ffffffb3] inline-flex items-center gap-1'>contact</a>
           <div className='flex gap-1.5 ml-1'>
             <a href="" className='flex items-center justify-center size-8 rounded-full text-[#ffffff8c]'>
               <FacebookIcon />
@@ -45,7 +45,12 @@ const NavCopied = () => {
               <InstagramIcon />
             </a>
           </div>
-          <a href="" className='bg-white text-black border-2 border-white text-[.75rem] px-5.5 py-2.5 inline-flex items-center gap-2 font-barlowCondensed font-semibold uppercase tracking-[0.08em] rounded-sm overflow-hidden whitespace-nowrap'>free inspection</a>
+          <a href="" className='bg-white text-black border-2 border-white   px-5.5 py-2.5 inline-flex items-center gap-2 uppercase rounded-sm
+          tracking-[.08em]
+          font-semibold text-nowrap 
+          text-[.75rem]
+           leading-none
+          '>free inspection</a>
         </nav>
 
       </div>
