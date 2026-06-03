@@ -30,7 +30,7 @@ export default function RootLayout({
       lang="en"
       className={`${barlowCondensed.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body>
+      <body className="leading-[1.6]">
         <Nav />
         {children}
       </body>

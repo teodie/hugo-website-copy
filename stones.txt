@@ -3,3 +3,4 @@ I dont know how the :root or the global.css works
 I dont know how the clamp css function works. example ( width:Clamp(200px, 26vw, 320px) )
 Got an issue when copying the font from the design and it seems to not match. the reason is that when I load my font from google I only set the weight: ["100", "200", "300", "400", "500" ]
 but I am using the 600 which is not on the list so the browser guess what will the weight and over guessed it lesson. include all the fucking weight
+I dont know how to pass image as a prop in typescript

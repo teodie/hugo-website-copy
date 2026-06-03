@@ -10,7 +10,7 @@ const TrustBar = () => {
   ]
 
   return (
-    <section className='lg:flex justify-center bg-gray-100 border-b border-gray-200 hidden '>
+    <section className=' sm:flex justify-center bg-gray-100 border-b border-gray-200 hidden'>
       {
         trustBarObject.map((element) => (
           <TrustbarCard key={element.label} icon={element.icon} label={element.label} />
