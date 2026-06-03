@@ -11,8 +11,9 @@ const Nav = () => {
         {/* Left Nav  */}
         <nav
           className='
-        flex items-center gap-8 grow shrink basis-0
+        lg:flex items-center gap-8 grow shrink basis-0
         justify-end pr-16
+        hidden
         '>
           <a href="" className=' font-medium text-[.875rem] uppercase tracking-widest text-[#ffffffb3] inline-flex items-center gap-1'
           >About</a>
@@ -29,8 +30,9 @@ const Nav = () => {
         {/* Right Nav  */}
         <nav
           className='
-        flex items-center gap-8 grow shrink basis-0
+        lg:flex items-center gap-8 grow shrink basis-0
         flex-start pl-16
+        hidden
         '
         >
           <a href="" className=' font-medium text-[.875rem] uppercase tracking-widest text-[#ffffffb3] inline-flex items-center gap-1'
@@ -45,6 +47,7 @@ const Nav = () => {
               <InstagramIcon />
             </a>
           </div>
+          
           <a href="" className='bg-white text-black border-2 border-white   px-5.5 py-2.5 inline-flex items-center gap-2 uppercase rounded-sm
           tracking-[.08em]
           font-semibold text-nowrap 
@@ -57,6 +60,10 @@ const Nav = () => {
             duration-500
           '>free inspection</a>
         </nav>
+
+        <div className=' lg:hidden text-white'>
+          <Menu />
+        </div>
 
       </div>
     </header>
