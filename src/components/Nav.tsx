@@ -51,6 +51,7 @@ const Nav = () => {
           text-[.75rem]
            leading-none
            hover:border-gray-700
+           hover:bg-transparent
             hover:text-white
             transition-colors
             duration-500
