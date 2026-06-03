@@ -1,5 +1,4 @@
 import { ArrowRight } from 'lucide-react'
-import { serviceSectionImages } from '../../public/assets/assets'
 import Image, { StaticImageData } from 'next/image'
 
 type ServiceCardPropTypes = {
