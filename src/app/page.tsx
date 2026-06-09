@@ -1,6 +1,6 @@
-import Hero from '@/components/Hero'
-import Services from '@/components/Service';
-import TrustBar from "@/components/TrustBar";
+import Hero from '@/sections/Hero'
+import Services from '@/sections/Service';
+import TrustBar from "@/sections/TrustBar";
 
 export default function Home() {
   return (

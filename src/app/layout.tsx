@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Barlow_Condensed } from "next/font/google";
 import "./globals.css";
-import Nav from "@/components/Nav";
+import Nav from "@/sections/Nav";
 
 const barlowCondensed = Barlow_Condensed({
   variable: "--font-barlow-condensed",

@@ -1,4 +1,4 @@
-import TrustbarCard from '@/elements/TrustbarCard'
+import TrustbarCard from '@/components/TrustbarCard'
 import { CheckSquare, MapPin, House } from 'lucide-react'
 
 const TrustBar = () => {

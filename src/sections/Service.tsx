@@ -1,4 +1,4 @@
-import ServiceCard from "@/elements/ServiceCard"
+import ServiceCard from "@/components/ServiceCard"
 import { serviceSectionImages } from "../../public/assets/assets"
 
 const Services = () => {
